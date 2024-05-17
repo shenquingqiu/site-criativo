@@ -3,8 +3,9 @@
     padding: 0 ;
 }
 
+
 .cabecalho {
-    background-color: #3008d1;
+    background-color: #245BAE;
     color: rgb(255, 251, 251);
         display: flex;
         justify-content: space-around;
@@ -17,5 +18,23 @@
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0  16px;
-    font-size: 55px;
+    font-size: 30px;
+}
+
+.lendas-imagem{ 
+    width: 30%;
+}
+
+.escola{ 
+    background-image: linear-gradient(#2359AA,#1E4C92,#153565,#112C53,#0F274B,#10294F,#0F2648);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px  0;
+}
+
+.escola-div-conteudo{
+    width: 55%;
+    padding:24px  0 ;
 }
